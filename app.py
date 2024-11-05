@@ -3,6 +3,8 @@
 # Upload Pdf (Resume)
 # Pdf to Image ----> Processing ----> google Gemini Pro 
 # Prompt template[multiple prompt]
+# this app.py is using Pdf to image meanse our  resume pdf is transformed to an image bytes then analyze it using gemini Falsh model 
+# in the other hand app2.py is using Pypdf2 library for transforming it to text for analysing the pdf directly 
 
 from dotenv import load_dotenv 
 import streamlit as st 
